@@ -6,16 +6,59 @@ body{
 }
 header{
   background-color: F5F5F5;
-  padding: 160px 24px;
+  
+  display: flex;
+  justify-content: space-between;
 }
 header .sign-in{
 
   background-color: F5F5F5;
-  color: 006A50;
-padding: 10px 20px;
+  color: rgba(0, 106, 80, 1);
+padding: auto;
 border: none;
 text-align: center;
 cursor: pointer;
+
+
   
 
+}
+main{
+  padding: 20px;
+}
+.banner {
+  background-color: aquamarine;
+  text-align: center;
+padding: 50px 20px;
+border-radius: 5px;
+}
+.banner .explore-btn{
+  background-color: rgba(3, 116, 88, 1);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border:none;
+  cursor: pointer;
+
+}
+.pillars{
+  text-align: center;
+  padding: 20px;
+}
+.cards { display: flex;
+   justify-content: space-around; 
+   margin-top: 20px;
+   background-color: FFFFFF;
+   margin: 30px;
+   
+}
+.cards .card{
+  background-color:rgba(255, 255, 255, 1);
+  margin-top: 60px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+  color: rgba(14, 14, 14, 0.8);
+  margin-right: 20px;
+  border-radius: 10px;
+  text-wrap: wrap;
 }
