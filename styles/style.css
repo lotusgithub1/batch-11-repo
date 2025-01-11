@@ -1,0 +1,21 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: F1F1F3;
+}
+header{
+  background-color: F5F5F5;
+  padding: 160px 24px;
+}
+header .sign-in{
+
+  background-color: F5F5F5;
+  color: 006A50;
+padding: 10px 20px;
+border: none;
+text-align: center;
+cursor: pointer;
+  
+
+}
