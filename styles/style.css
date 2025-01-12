@@ -172,3 +172,53 @@ th { background-color:rgba(198, 228, 214, 1); } select { padding: 5px; border-ra
   
 
 }
+.taka{
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto; 
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0,)
+}
+.taka h1{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.donation-options{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.donation-option{
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+.donation-option-special{
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 9px;
+  padding: 10px 20px;
+  /* background-color: blue; */
+
+}
+.donation-option-special:hover{
+  background-color: rgb(238, 117, 208);
+}
+.other-amount{
+  border: none;
+}
+.donate-button{
+  background-color :rgba(0, 106, 80, 1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 60px;
+
+}
