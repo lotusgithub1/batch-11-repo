@@ -8,23 +8,28 @@ header{
   background-color: F5F5F5;
   
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-header .sign-in{
+button.sign-in{
 
   background-color: F5F5F5;
   color: rgba(0, 106, 80, 1);
-padding: auto;
+padding: 10px;
 border: none;
 text-align: center;
 cursor: pointer;
+border-radius: 5px;
 
 
   
 
 }
+.banner{
+  
+}
+
 main{
-  padding: 20px;
+  /* padding: 20px; */
 }
 .banner {
   background-color: aquamarine;
@@ -114,6 +119,56 @@ th { background-color:rgba(198, 228, 214, 1); } select { padding: 5px; border-ra
   margin-bottom: 20px;
 }
  
-.news{
-  margin-top: 20px;
+.news-article{
+  display: flex;
+  padding: 20px;
+
+  
+}
+#news-article2{
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+.news-article .img1{
+  border-radius: 10px;
+  margin-right: 20px;
+
+}
+#news-article2 .img1  {
+  border-radius: 10px;
+  
+
+  
+  
+
+}
+.news-btn2{
+  text-decoration: none;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.news-btn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.news-article .news-btn {
+  text-decoration: none;
+  background-color: rgba(0, 106, 80, 1);
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  
+
+}
+.news-btn a{
+  text-decoration: none;
+  color: white;
+  
+
 }
