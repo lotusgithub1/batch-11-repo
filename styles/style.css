@@ -219,6 +219,8 @@ th { background-color:rgba(198, 228, 214, 1); } select { padding: 5px; border-ra
   margin-bottom: 40px;
   color: white;
   font-size: 24px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
+  display: flex;
+  justify-content: center;
 
 }
